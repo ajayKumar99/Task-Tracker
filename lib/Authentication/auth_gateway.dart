@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'dashboard.dart';
-import 'loginpage.dart';
+
+
 import 'authentication.dart';
+import '../Pages/dashboard.dart';
+import '../Pages/loginpage.dart';
+
 
 class AuthenticationBridge extends StatefulWidget {
   final Authentication auth;

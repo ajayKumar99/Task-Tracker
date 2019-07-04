@@ -1,9 +1,12 @@
 import 'dart:async';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
-import 'auth_gateway.dart';
-import 'authentication.dart';
-import 'colors.dart';
+
+
+import '../Authentication/auth_gateway.dart';
+import '../Authentication/authentication.dart';
+import '../Colors/colors.dart';
+
 
 class MyApp extends StatelessWidget {
   final SharedPreferences pref;

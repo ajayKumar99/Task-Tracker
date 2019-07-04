@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
 
-import 'authentication.dart';
+
+import '../Authentication/authentication.dart';
+
 
 class LoginPage extends StatefulWidget {
   final Authentication auth;

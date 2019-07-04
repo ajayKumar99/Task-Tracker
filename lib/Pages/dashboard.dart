@@ -1,10 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'colors.dart';
-import 'authentication.dart';
+
+
 import 'taskhandler.dart';
-import 'app.dart';
+import '../Colors/colors.dart';
+import '../Authentication/authentication.dart';
+import '../App/app.dart';
+
 
 class Dashboard extends StatefulWidget {
   final Authentication auth;
