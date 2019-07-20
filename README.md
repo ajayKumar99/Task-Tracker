@@ -1,6 +1,6 @@
-# to_do_list
+# Task-Tracker
 
-A new Flutter project.
+A dynamic task tracking native flutter app with google authentication using firebase and a real time cloud firestore database.
 
 ## Getting Started
 
